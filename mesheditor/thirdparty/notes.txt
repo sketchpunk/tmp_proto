@@ -1,0 +1,9 @@
+https://cdn.jsdelivr.net/npm/three@0.157.0/
+https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.module.js
+// Modified
+comment out define SHADER_TYPE
+find:  _this.properties = properties;
+and Add: _this.attributes = attributes;
+
+https://cdn.jsdelivr.net/npm/three@0.157.0/examples/jsm/controls/OrbitControls.js
+https://cdn.jsdelivr.net/npm/three@0.157.0/examples/jsm/controls/TransformControls.js
